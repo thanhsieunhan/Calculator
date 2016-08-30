@@ -27,8 +27,9 @@ class GrandientView: UIView {
         let bgGragdient = CAGradientLayer()
         bgGragdient.frame = self.frame
         
-        bgGragdient.colors =  [ UIColor.init(red: 57/255, green: 120/255, blue: 127/255, alpha: 1.0).CGColor,
-                                UIColor.init(red: 77/255, green: 188/255, blue: 201/255, alpha: 1.0).CGColor ]
+        bgGragdient.colors =  [
+            UIColor.init(red: 77/255, green: 188/255, blue: 201/255, alpha: 1.0).CGColor ,
+            UIColor.init(red: 57/255, green: 120/255, blue: 127/255, alpha: 1.0).CGColor]
         
         let startPoint = CGPoint.init(x: 0, y: 0)
         let endPoint =  CGPoint.init(x: 0.5, y: 0.8)
